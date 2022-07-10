@@ -113,6 +113,22 @@
     border-color: rgba(100, 98, 98, 0.15); 
 }
 
+.projectContainer:hover {
+    border-color: rgba(100, 98, 98, 0.5);
+    transition-timing-function: ease-in; 
+    transition-duration: 0.2s;
+}
+
+.projectContainer:not(:hover) {
+    border-color: rgba(100, 98, 98, 0.15);
+    transition-timing-function: ease-in; 
+    transition-duration: 0.1s;
+}
+
+.projectContainer:active {
+    border-color: rgba(157, 153, 153, 0.5);
+}
+
 .projectTitle {
     font-family: poppins;
     line-height: 27px; 
@@ -178,7 +194,7 @@
 .githubButton:active {
     background-color: rgb(35, 35, 35) !important; 
     color: rgb(255, 255, 255) !important; 
-    transition-timing-function: ease-in; 
+    transition-timing-function: ease-in;
     transition-duration: 0.3s;
 }
 
