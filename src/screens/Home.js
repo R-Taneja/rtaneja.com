@@ -4,6 +4,9 @@ import FadeIn from 'react-fade-in';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from "react-router-dom";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 require("typeface-poppins")
 
@@ -26,6 +29,11 @@ function Home() {
         <div className='homeButtons'>
           <button className='contactButton' onClick={handleContactButtonClick}>Contact me</button>
           <button className='projectsButton' onClick={handleProjectsButtonClick}>Projects &nbsp;<FontAwesomeIcon icon={faArrowRight} /></button>
+        </div>
+        <div className='socials'>
+          <FontAwesomeIcon icon={faLinkedin} size="xl" onClick={() => window.open("https://www.linkedin.com/in/rohan-taneja/")} style={{ cursor: "pointer" }} />
+          <FontAwesomeIcon icon={faInstagram} size="xl" onClick={() => window.open("https://www.instagram.com/r.taneja_/")} style={{ cursor: "pointer" }} />
+          <FontAwesomeIcon icon={faTwitter} size="xl" onClick={() => window.open("https://twitter.com/rtaneja_")} style={{ cursor: "pointer" }} />
         </div>
       </div>
     </FadeIn>
