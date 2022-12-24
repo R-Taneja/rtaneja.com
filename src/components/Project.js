@@ -6,7 +6,7 @@ function Project({ title, description, language, link }) {
     }
 
     return (
-        <div className='projectContainer' onClick={handleProjectClick} style={{ cursor: 'pointer' }}>
+        <div className='projectContainer' onClick={handleProjectClick}>
             <h3 className='projectTitle'>{title}</h3>
             <p className='projectDescription'>{description}</p>
             <p className='projectLanguage'>{language}</p>

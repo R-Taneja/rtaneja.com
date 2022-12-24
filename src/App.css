@@ -128,12 +128,14 @@ body, html {
 }
 
 .projectContainer {
+    cursor: pointer;
     background-color: rgb(255, 255, 255); 
-    padding: 25px; 
+    padding: 25px;
     border-style: solid; 
     border-width: 1px; 
     border-radius: 5px; 
     border-color: rgba(100, 98, 98, 0.15); 
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.02);
 }
 
 .projectContainer:hover {
