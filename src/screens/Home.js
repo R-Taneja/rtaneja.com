@@ -1,5 +1,5 @@
 import '../App.css';
-import profilePicture from '../img/pfp.jpg';
+import profilePicture from '../img/pfp.webp';
 import FadeIn from 'react-fade-in';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -11,14 +11,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 require("typeface-poppins")
 
 function Home() {
-  const handleContactButtonClick = () => {
-    window.open("mailto:rohan.taneja@berkeley.edu?subject=RE: rtaneja.com");
-  };
-
   const navigate = useNavigate();
-  const handleProjectsButtonClick = () => {
-    navigate("/projects");
-  };
 
   return (
     <FadeIn>
@@ -27,8 +20,8 @@ function Home() {
         <h1 className='name'>Rohan Taneja</h1>
         <h3 className='subtitle'>Developer studying EECS + Business @ UC Berkeley</h3>
         <div className='homeButtons'>
-          <button className='contactButton' onClick={handleContactButtonClick}>Contact me</button>
-          <button className='projectsButton' onClick={handleProjectsButtonClick}>Projects &nbsp;<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className='contactButton' onClick={() => {window.open("mailto:rohan.taneja@berkeley.edu?subject=RE: rtaneja.com")}}>Contact me</button>
+          <button className='projectsButton' onClick={() => {navigate("/projects")}}>Projects &nbsp;<FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
         <div className='socials'>
           <FontAwesomeIcon icon={faLinkedin} size="xl" onClick={() => window.open("https://www.linkedin.com/in/rohan-taneja/")} style={{ cursor: "pointer" }} />

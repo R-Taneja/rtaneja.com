@@ -4,31 +4,24 @@ import Project from '../components/Project';
 import FadeIn from 'react-fade-in/lib/FadeIn';
 import { faArrowLeft, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from "react-router-dom";
-import blokkerLogo from '../img/blokker.svg';
-import rapidTestLogo from '../img/rapidtest.png';
-import wordFreqLogo from '../img/wordfreq.png';
-import driveTestLogo from '../img/driveTestLogo.png';
-import gradeDistLogo from '../img/gradeDistLogo.png';
-import notedLogo from '../img/notedLogo.png';
+import blokkerLogo from '../img/blokker.webp';
+import rapidTestLogo from '../img/rapidtest.webp';
+import wordFreqLogo from '../img/wordfreq.webp';
+import driveTestLogo from '../img/driveTestLogo.webp';
+import gradeDistLogo from '../img/gradeDistLogo.webp';
+import notedLogo from '../img/notedLogo.webp';
 
 require("typeface-poppins")
 
 function Projects() {
-  const handleGitHubButtonClick = () => {
-      window.open("https://github.com/R-Taneja");
-  };
-
   const navigate = useNavigate();
-  const handleBackButtonClick = () => {
-    navigate("/");
-  };
 
   return (
     <FadeIn>
       <div className='projectsPage'>
-          <FontAwesomeIcon className="backButton" size="xl" icon={faArrowLeft} onClick={handleBackButtonClick} />
+          <FontAwesomeIcon className="backButton" size="xl" icon={faArrowLeft} onClick={() => {navigate("/")}} />
           <h2 className='projectsHeader'>Featured Projects</h2>
-          <button className="githubButton" onClick={handleGitHubButtonClick}>More on GitHub &nbsp;<FontAwesomeIcon icon={faUpRightFromSquare} /></button>
+          <button className="githubButton" onClick={() => {window.open("https://github.com/R-Taneja")}}>More on GitHub &nbsp;<FontAwesomeIcon icon={faUpRightFromSquare} /></button>
           <div className="projects">
             <Project title='Noted' description='A note-taking app for the macOS menu bar' language='</>  Swift • 1.5K+ downloads • 4.6 &#9733;' link='https://apps.apple.com/us/app/noted/id1541403993' logo={notedLogo} />
             <Project title='Rapid Test Collector' description='A tool to collect and verify COVID-19 rapid test results' language='</>  React' link='https://www.rapidtestcollector.com' logo={rapidTestLogo} />
