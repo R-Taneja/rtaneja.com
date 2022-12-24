@@ -1,5 +1,5 @@
-import './App.css';
-import profilePicture from './img/pfp.jpg';
+import '../App.css';
+import profilePicture from '../img/pfp.jpg';
 import FadeIn from 'react-fade-in';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';

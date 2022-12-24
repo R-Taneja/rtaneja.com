@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './Home';
-import Projects from './Projects';
+import Home from './screens/Home';
+import Projects from './screens/Projects';
 import {
   createBrowserRouter,
   RouterProvider,
