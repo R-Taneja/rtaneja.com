@@ -19,7 +19,7 @@ function Home() {
       <div className='homePage'>
         <img className='pfp' src={profilePicture} alt="Rohan Taneja" />
         <h1 className='name'>Rohan Taneja</h1>
-        <h3 className='subtitle'>Developer studying CS + Business @ <a href="https://met.berkeley.edu" rel="noreferrer" target="_blank" style={{ textDecoration: "none" }}>UC Berkeley M.E.T.</a></h3>
+        <h3 className='subtitle'>Computer Science (EECS) + Business @ <a href="https://met.berkeley.edu" rel="noreferrer" target="_blank" style={{ textDecoration: "none", color: "blue" }}>UC Berkeley M.E.T.</a></h3>
         <div className='homeButtons'>
           <button className='contactButton' onClick={() => {window.open("mailto:rohan.taneja@berkeley.edu?subject=RE: rtaneja.com")}}>Contact me</button>
           <button className='projectsButton' onClick={() => {navigate("/projects")}}>Projects &nbsp;<FontAwesomeIcon icon={faArrowRight} /></button>
