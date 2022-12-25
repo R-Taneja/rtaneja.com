@@ -115,11 +115,11 @@ body, html {
     letter-spacing: -0.673077px;
     line-height: 42.2917px; 
     font-size: 35px;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
 }
 
 .projects {
-    max-width: 50rem;
+    max-width: 45rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     flex-direction: column;
@@ -220,7 +220,7 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-top: 3em;
 }
 
 .githubButton:active {
