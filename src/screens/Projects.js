@@ -24,7 +24,7 @@ function Projects() {
           <div className="projects">
             <Project title='Noted' description='Jot down thoughts and ideas instantly with this convenient note-taking app for the macOS menu bar' language='</>  Swift • 1.5K+ downloads • 4.6 &#9733;' link='https://apps.apple.com/us/app/noted/id1541403993' logo={notedLogo} />
             <Project title='Rapid Test Collector' description='Host events safely by collecting COVID-19 test results from attendees' language='</>  React' link='https://rapid-test-collector.vercel.app' logo={rapidTestLogo} />
-            <Project title='Word Frequency Tool' description='Write with clarity by cutting down on repeated words' language='</>  HTML, CSS, & JS' link='https://wordfrequency.app/' logo={wordFreqLogo} />
+            <Project title='Word Frequency Tool' description='Write with clarity by cutting down on repeated words' language='</>  HTML, CSS, & JS' link='https://wordfrequency.vercel.app' logo={wordFreqLogo} />
             <Project title='Blokker' description='Stay focused while using Instagram by blocking only the most distracting features' language='</>  Chrome Extension' link='https://github.com/R-Taneja/Blokker' logo={blokkerLogo} />
             <Project title='DriveTest Bot' description="Get your Ontario driver's license faster with this bot that checks for available road test dates in seconds" language='</>  Python' link='https://github.com/R-Taneja/DriveTest-Date-Checker' logo={driveTestLogo} />
             <Project title='Grade Distribution Quiz' description='Test your knowledge of UC Berkeley course grade distributions with this game!' language='</>  React' link='https://grade-distribution.vercel.app' logo={gradeDistLogo} />
