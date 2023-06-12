@@ -26,7 +26,7 @@ function Projects() {
           <div className="projects">
             <Project title='Noted' description='Jot down thoughts and ideas instantly with this convenient note-taking app for the macOS menu bar' language='</>  Swift • 1.5K+ downloads • 4.6 &#9733;' link='https://apps.apple.com/us/app/noted/id1541403993' logo={notedLogo} />
             <Project title='Auxify' description='Create interactive listening experiences by making your Spotify queue collaborative' language='</>  React • 1K+ users' link='https://www.auxify.io' logo={auxifyLogo} />
-            <Project title='Drop-In CSS Generator' description='Generate custom drop-in CSS files to style simple websites instantly' language='</>  React • 500+ users' link='https://www.dropincss.com' logo={dropInCSS} />
+            <Project title='Drop-In CSS Generator' description='Generate custom drop-in CSS files to style simple websites instantly' language='</>  React • 600+ users' link='https://www.dropincss.com' logo={dropInCSS} />
             <Project title='Rapid Test Collector' description='Host events safely by collecting COVID-19 test results from attendees' language='</>  React' link='https://rapid-test-collector.vercel.app' logo={rapidTestLogo} />
             <Project title='Word Frequency Tool' description='Write with clarity by cutting down on repeated words' language='</>  HTML, CSS, & JS' link='https://wordfrequency.vercel.app' logo={wordFreqLogo} />
             <Project title='Blokker' description='Stay focused while using Instagram by blocking only the most distracting features' language='</>  Chrome Extension' link='https://github.com/R-Taneja/Blokker' logo={blokkerLogo} />
