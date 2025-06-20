@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import blokkerLogo from '../img/blokker.webp';
 import rapidTestLogo from '../img/rapidtest.webp';
 import wordFreqLogo from '../img/wordfreq.webp';
+import glanceLogo from '../img/glanceLogo.webp';
 // import driveTestLogo from '../img/driveTestLogo.webp';
 import buildListLogo from '../img/buildListLogo.png';
 import notedLogo from '../img/notedLogo.webp';
@@ -25,6 +26,7 @@ function Projects() {
           <FontAwesomeIcon className="backButton" size="xl" icon={faArrowLeft} onClick={() => {navigate("/")}} />
           <h2 className='projectsHeader'>Featured Projects</h2>
           <div className="projects">
+            <Project title='Glance' description='Protect yourself from digital eye strain by glancing away from your screen' language='</>  Swift' link='https://apps.apple.com/us/app/glance-prevent-eye-strain/id6746469770?mt=12' logo={glanceLogo} />
             <Project title='BuildList' description='Discover your next profitable idea with weekly insights on the app market' language='</>  Next.js' link='https://www.buildlist.app/' logo={buildListLogo} />
             <Project title='Noted' description='Jot down thoughts and ideas instantly with this convenient note-taking app for the macOS menu bar' language='</>  Swift • 1.5K+ downloads • 4.6 &#9733;' link='https://apps.apple.com/us/app/noted/id1541403993' logo={notedLogo} />
             <Project title='Auxify' description='Create interactive listening experiences by making your Spotify queue collaborative' language='</>  React • 1K+ users' link='https://www.auxify.io' logo={auxifyLogo} />
